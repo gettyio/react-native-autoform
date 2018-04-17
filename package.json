@@ -1,0 +1,31 @@
+{
+  "name": "react-native-form",
+  "version": "0.1.0",
+  "description": "A painless form state manager.",
+  "main": "src/index.js",
+  "repository": "https://github.com/gettyio/react-native-autoform.git",
+  "scripts": {
+    "lint": "eslint . --ignore-path .gitignore --ext .js"
+  },
+  "author": "Juliano Rafael <juliano@getty.io>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-native": "^0.55.2"
+  },
+  "devDependencies": {
+    "babel-preset-react-native": "^4.0.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "husky": "^1.0.0-rc.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint"
+    }
+  }
+}
