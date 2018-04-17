@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "https://github.com/gettyio/react-native-autoform.git",
   "scripts": {
-    "lint": "eslint . --ignore-path .gitignore --ext .js",
+    "lint": "eslint . --ignore-path .gitignore --ext .js --ignore-pattern **/**.test.js",
     "test": "jest"
   },
   "author": "Juliano Rafael <juliano@getty.io>",
@@ -22,10 +22,12 @@
   "devDependencies": {
     "babel-jest": "^22.4.3",
     "babel-preset-react-native": "^4.0.0",
+    "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-react": "^7.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "husky": "^1.0.0-rc.1",
     "jest": "^22.4.3",
