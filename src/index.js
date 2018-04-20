@@ -28,7 +28,7 @@ class Form extends Component {
       .filter(input => !!input.rules)
       .reduce((errors, input) => {
         const error = this._validateInput(input)
-        if (error) {
+        if (error[input.name]) {
           errors[input.name] = error[input.name][0]
         }
         return errors
