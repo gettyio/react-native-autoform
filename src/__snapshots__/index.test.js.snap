@@ -1,11 +1,102 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders correctly 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  ellipsizeMode="tail"
+<RCTScrollView
+  automaticallyAdjustContentInsets={false}
+  contentContainerStyle={undefined}
+  contentInset={
+    Object {
+      "bottom": 0,
+    }
+  }
+  enableAutomaticScroll={true}
+  enableResetScrollToCoords={true}
+  extraHeight={75}
+  extraScrollHeight={0}
+  getScrollResponder={[Function]}
+  handleOnScroll={[Function]}
+  innerRef={[Function]}
+  keyboardDismissMode="interactive"
+  keyboardOpeningTime={250}
+  keyboardSpace={0}
+  onScroll={[Function]}
+  resetKeyboardSpace={[Function]}
+  resetScrollToCoords={
+    Object {
+      "x": 0,
+      "y": 0,
+    }
+  }
+  scrollEventThrottle={1}
+  scrollForExtraHeightOnAndroid={[Function]}
+  scrollToEnd={[Function]}
+  scrollToFocusedInput={[Function]}
+  scrollToPosition={[Function]}
+  showsVerticalScrollIndicator={true}
+  viewIsInsideTabBar={false}
 >
-  Form Component
-</Text>
+  <View>
+    <View
+      flex={1}
+      style={
+        Array [
+          Object {
+            "flexBasis": 0,
+            "flexGrow": 1,
+            "flexShrink": 1,
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+            undefined,
+          ]
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {},
+              undefined,
+            ]
+          }
+        >
+          Input 1
+        </Text>
+        <TextInput
+          allowFontScaling={true}
+          name="input1"
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onSubmitEditing={[Function]}
+          schema={
+            Object {
+              "label": "Input 1",
+              "name": "input1",
+              "type": "text",
+            }
+          }
+          style={
+            Array [
+              Object {
+                "borderColor": "#eaeaea",
+                "borderStyle": "solid",
+                "borderWidth": 1,
+              },
+              undefined,
+            ]
+          }
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
 `;
