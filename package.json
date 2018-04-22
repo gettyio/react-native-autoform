@@ -1,5 +1,5 @@
 {
-  "name": "@gettyio/react-native-form",
+  "name": "@getty.io/react-native-form",
   "version": "0.1.0",
   "description": "A painless form state manager.",
   "main": "src/index.js",
