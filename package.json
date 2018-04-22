@@ -11,6 +11,11 @@
   "author": "Juliano Rafael <juliano@getty.io>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "react",
+    "react-native",
+    "forms"
+  ],
   "dependencies": {
     "@flatten/array": "^1.1.4",
     "prop-types": "^15.6.1",
