@@ -1,4 +1,4 @@
-# @gettyio/react-native-form
+# @getty.io/react-native-form
 
 A Form component that automatically manages the state of your inputs, validation and navigation through the inputs like magic.
 
