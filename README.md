@@ -2,7 +2,7 @@
 
 A Form component that automatically manages the state of your inputs, validation and navigation through the inputs like magic.
 
-*:construction: THIS IS A WORK IN PROGRESS*
+*:construction: THIS IS A WORK IN PROGRESS :construction:*
 
 ## What this component do?
 This form component automatically manages the state of its inputs created from the schema, validates them according to the rules passed on the rule keyword of the input schema, using the [validate.js](https://validatejs.org/) validators.
