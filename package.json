@@ -1,6 +1,6 @@
 {
   "name": "@getty.io/react-native-form",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A painless form state manager.",
   "main": "src/index.js",
   "repository": "https://github.com/gettyio/react-native-autoform.git",
