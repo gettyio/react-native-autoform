@@ -25,7 +25,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "function",
     "props": Object {
       "children": Array [
         <UNDEFINED>
@@ -50,17 +50,6 @@ ShallowWrapper {
           </Styled(Component)>
         </UNDEFINED>,
       ],
-      "enableAutomaticScroll": true,
-      "enableResetScrollToCoords": true,
-      "extraHeight": 75,
-      "extraScrollHeight": 0,
-      "innerRef": [Function],
-      "keyboardOpeningTime": 250,
-      "resetScrollToCoords": Object {
-        "x": 0,
-        "y": 0,
-      },
-      "viewIsInsideTabBar": false,
     },
     "ref": null,
     "rendered": Array [
@@ -145,13 +134,13 @@ ShallowWrapper {
         "type": Symbol(react.fragment),
       },
     ],
-    "type": [Function],
+    "type": Symbol(react.fragment),
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "class",
+      "nodeType": "function",
       "props": Object {
         "children": Array [
           <UNDEFINED>
@@ -176,17 +165,6 @@ ShallowWrapper {
             </Styled(Component)>
           </UNDEFINED>,
         ],
-        "enableAutomaticScroll": true,
-        "enableResetScrollToCoords": true,
-        "extraHeight": 75,
-        "extraScrollHeight": 0,
-        "innerRef": [Function],
-        "keyboardOpeningTime": 250,
-        "resetScrollToCoords": Object {
-          "x": 0,
-          "y": 0,
-        },
-        "viewIsInsideTabBar": false,
       },
       "ref": null,
       "rendered": Array [
@@ -271,7 +249,7 @@ ShallowWrapper {
           "type": Symbol(react.fragment),
         },
       ],
-      "type": [Function],
+      "type": Symbol(react.fragment),
     },
   ],
   Symbol(enzyme.__options__): Object {
