@@ -19,7 +19,6 @@
   "dependencies": {
     "@flatten/array": "^1.1.4",
     "prop-types": "^15.6.1",
-    "react-native-keyboard-aware-scroll-view": "^0.5.0",
     "styled-components": "^3.2.6",
     "validate.js": "^0.12.0"
   },

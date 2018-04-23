@@ -2,7 +2,6 @@ import React, { Component, Fragment } from 'react'
 import flatten from '@flatten/array'
 import PropTypes from 'prop-types'
 import validate from 'validate.js'
-import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view'
 
 import { Row, RowItem, HorizontalSpacer, VerticalSpacer } from './Utils'
 import Input from './Input'
@@ -99,14 +98,9 @@ class Form extends Component {
 
   render () {
     return (
-      <KeyboardAwareScrollView
-        resetScrollToCoords={{ x: 0, y: 0 }}
-        innerRef={ref => {
-          this.scroll = ref
-        }}
-      >
+      <Fragment>
         {this.props.schema.map(this._renderInputOrRow)}
-      </KeyboardAwareScrollView>
+      </Fragment>
     )
   }
 }
