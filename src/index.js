@@ -55,7 +55,7 @@ class Form extends Component {
           <Input
             schema={item}
             innerRef={element => {
-              element.focus && (this.focusableInputs[item.name] = element)
+              element && element.focus && (this.focusableInputs[item.name] = element)
             }}
             value={this.state.values[item.name]}
             error={this.state.errors[item.name]}
