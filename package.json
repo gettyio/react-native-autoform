@@ -1,12 +1,14 @@
 {
-  "name": "@getty.io/react-native-form",
+  "name": "@gettyio/react-native-form",
   "version": "0.1.2",
   "description": "A painless form state manager.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/gettyio/react-native-autoform.git",
   "scripts": {
     "lint": "eslint . --ignore-path .gitignore --ext .js --ignore-pattern **/**.test.js",
-    "test": "jest"
+    "test": "jest",
+    "prepublish": "yarn lint && yarn test && yarn build",
+    "build": "rm -rf ./dist && babel src/index.js -d dist --copy-files"
   },
   "author": "Juliano Rafael <juliano@getty.io>",
   "license": "MIT",
@@ -15,6 +17,9 @@
     "react",
     "react-native",
     "forms"
+  ],
+  "files": [
+    "dist"
   ],
   "dependencies": {
     "@flatten/array": "^1.1.4",
